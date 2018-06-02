@@ -1,0 +1,68 @@
+{
+  "name": "@ivanwei/tui-date-picker",
+  "version": "0.0.1",
+  "description": "TOAST UI Components: DatePicker",
+  "main": "dist/@ivanwei/tui-date-picker",
+  "scripts": {
+    "test": "karma start --no-single-run",
+    "test:ne": "KARMA_SERVER=ne karma start",
+    "bundle": "webpack & webpack --production",
+    "serve": "webpack-dev-server --inline --hot -d",
+    "serve:ie8": "webpack-dev-server -d",
+    "cpy-dist2doc": "mkdir -p doc/dist && cp -f -r dist doc",
+    "doc": "jsdoc -c jsdoc.conf.json && npm run cpy-dist2doc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ivanwei/tui.date-picker"
+  },
+  "keywords": [
+    "nhnent",
+    "tui",
+    "component",
+    "calendar",
+    "date-picker",
+    "date-range-picker",
+    "tui-date-picker"
+  ],
+  "author": "Ivan Wei (https://blog.ivanwei.co)",
+  "contributors": [
+    "NHNEnt FE Development Lab <dl_javascript@nhnent.com>"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^0.26.1",
+    "es5-shim": "^4.5.9",
+    "eslint": "^4.5.0",
+    "eslint-config-tui": "^1.0.1",
+    "eslint-loader": "^1.6.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "handlebars": "4.0.6",
+    "handlebars-loader": "^1.4.0",
+    "istanbul-instrumenter-loader": "^1.0.0",
+    "jasmine-core": "^2.4.1",
+    "jsdoc": "^3.5.4",
+    "karma": "1.3.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-coverage": "^1.1.1",
+    "karma-es5-shim": "^0.0.4",
+    "karma-jasmine": "^1.0.2",
+    "karma-jquery": "^0.2.2",
+    "karma-junit-reporter": "^1.2.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webdriver-launcher": "git+https://github.com/nhnent/karma-webdriver-launcher.git#v1.1.0",
+    "karma-webpack": "^1.8.0",
+    "safe-umd-webpack-plugin": "^0.0.1",
+    "style-loader": "^0.13.1",
+    "tui-jsdoc-template": "^1.1.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.11.0"
+  },
+  "dependencies": {
+    "@ivanwei/tui-code-snippet": "^0.0.1",
+    "@ivanwei/tui-time-picker": "^0.0.1",
+    "jquery": "^1.11.0"
+  }
+}
