@@ -1,4 +1,4 @@
-# TOAST UI Component : Date Picker
+# TOAST UI Component : Date Picker (Remove )
 > Component that selects specific date.
 
 [![GitHub release](https://img.shields.io/github/release/nhnent/tui.date-picker.svg)](https://github.com/nhnent/tui.date-picker/releases/latest)
@@ -218,18 +218,18 @@ You can also see the older versions of API page on the [releases page](https://g
 
 
 ## 💬 Contributing
-* [Code of Conduct](https://github.com/nhnent/tui.date-picker/blob/production/CODE_OF_CONDUCT.md)
-* [Contributing guideline](https://github.com/nhnent/tui.date-picker/blob/production/CONTRIBUTING.md)
-* [Issue guideline](https://github.com/nhnent/tui.date-picker/blob/production/docs/ISSUE_TEMPLATE.md)
-* [Commit convention](https://github.com/nhnent/tui.date-picker/blob/production/docs/COMMIT_MESSAGE_CONVENTION.md)
+* [Code of Conduct](https://github.com/ivanwei/tui.date-picker/blob/production/CODE_OF_CONDUCT.md)
+* [Contributing guideline](https://github.com/ivanwei/tui.date-picker/blob/production/CONTRIBUTING.md)
+* [Issue guideline](https://github.com/ivanwei/tui.date-picker/blob/production/docs/ISSUE_TEMPLATE.md)
+* [Commit convention](https://github.com/ivanwei/tui.date-picker/blob/production/docs/COMMIT_MESSAGE_CONVENTION.md)
 
 
 ## 🔩 Dependency
-* [tui-code-snippet](https://github.com/nhnent/tui.code-snippet) >=1.2.5
-* [tui-time-picker](https://github.com/nhnent/tui.time-picker) >=1.0.0
+* [@ivanwei/tui-code-snippet](https://github.com/ivanwei/tui.code-snippet) >=0.0.1
+* [@ivanwei/tui-time-picker](https://github.com/ivanwei/tui.time-picker) >=0.0.1
 * [jquery](https://jquery.com/) >=1.11.0
 
 
 ## 📜 License
 
-This software is licensed under the [MIT](https://github.com/nhnent/tui.date-picker/blob/production/LICENSE) © [NHN Entertainment](https://github.com/nhnent).
+This software is licensed under the [MIT](https://github.com/ivanwei/tui.date-picker/blob/production/LICENSE) © [Ivan Wei](https://blog.ivanwei.co).
